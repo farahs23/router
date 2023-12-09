@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  line-height: 21px;
+  letter-spacing: -0.04em;
+}
+
+#card {
+  width: 1200px;
+  height: 628px;
+  padding: 90px 80px 35px 80px;
+  background-color: #111215;
+  background-image: url('img/bg.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+.row-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 57px;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 89px;
+  font-weight: 600;
+}
+
+.row-2 {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.fromAndTo {
+  display: flex;
+  align-items: center;
+}
+
+.token {
+  display: flex;
+  align-items: center;
+}
+
+.tokenIcons {
+  margin-right: 20px;
+  position: relative;
+}
+
+.tokenIcon {
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.networkIcon {
+  position: absolute;
+  right: -2px;
+  bottom: -2px;
+  display: block;
+  width: 34px;
+  height: 34px;
+  border-radius: 12px;
+  border: 2px solid #141C213D;
+  overflow: hidden;
+}
+
+.networkName {
+}
+
+.tokenSymbol {
+  margin-top: 8px;
+  font-size: 40px;
+  line-height: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.arrowInCircle {
+  margin: 0 30px;
+}
+
+.site {
+  width: 250px;
+  text-align: center;
+}
+
+hr {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #FFFFFF1F;
+}
+
+.row-3 {
+  margin-top: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 120px;
+}
+
+.tools {
+  display: flex;
+  max-width: 73%;
+  flex-wrap: wrap;
+  gap: 16px 0px;
+}
+
+.tool {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  height: 48px;
+  border-radius: 28px;
+  background-color: #FFFFFF14;
+  padding-right: 12px;
+  position: relative;
+}
+
+.tool::after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  transform: translate(50%, -50%);
+  width: 8px;
+  height: 12px;
+  background-image: url('img/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tool:last-child::after {
+  display: none;
+}
+
+.toolIcon {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.toolName {
+  font-weight: 600;
+}
+
+.time {
+  width: 250px;
+  text-align: center;
+}
+
+.timeValue {
+  margin-top: 12px;
+  font-size: 40px;
+  line-height: 35px;
+  font-weight: 600;
+}
